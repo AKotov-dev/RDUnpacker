@@ -9,7 +9,7 @@ object MainForm: TMainForm
   ClientWidth = 731
   OnCreate = FormCreate
   OnShow = FormShow
-  SessionProperties = 'DirEdit.Text;Height;OpenDialog1.FileName;SelectDirectoryDialog1.FileName;Width;Top;Left'
+  SessionProperties = 'Width;Height;DirEdit.Text;SelectDirectoryDialog1.FileName;OpenDialog1.FileName'
   LCLVersion = '2.2.4.0'
   object Label1: TLabel
     AnchorSideLeft.Control = Owner
