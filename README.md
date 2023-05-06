@@ -6,4 +6,4 @@ It has become a common occurrence that it is impossible to unpack/view the conte
   
 ![](https://github.com/AKotov-dev/RDUnpacker/blob/main/ScreenShot1.png)
   
-Tested on Mageia Linux, ROSA, Ubuntu and Arch Linux.
+Tested on Mageia Linux, ROSA, Fedora, Ubuntu and Arch Linux.
