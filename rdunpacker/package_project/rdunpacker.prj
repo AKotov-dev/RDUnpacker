@@ -1,0 +1,68 @@
+[NAME]
+name=rdunpacker
+
+[VERSION]
+version=0.2
+
+[RELEASE]
+release=0.mrx9
+
+[GROUP]
+group=Archiving/Backup
+
+[DESCRIPTION]
+0=RPM and DEB package unpacker
+1=---
+2=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=alex_q_2000 (C) 2023
+
+[SUMMARY]
+summary=RPM and DEB package unpacker
+
+[URLCOPY]
+urlcopy=111
+
+[LICENSE]
+license=GPLv3
+
+[DEPS]
+deps=p7zip zstd binutils gtk2
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=0
+
+[DEB]
+deb=1
+
+[FILES]
+0=/usr/share/rdunpacker/
+1=/usr/share/applications/rdunpacker.desktop
+2=/usr/share/icons/rdunpacker.png
+3=/usr/share/doc/rdunpacker/
+
+[URL32]
+url32=111
+
+[PROGRAMNAME]
+programname=RDUnpacker
+
+[DEVTOOL]
+devtool=Lazarus
+
+[TOOLVERSION]
+toolversion=2.2.4
+
+[INFO]
+0=RPM and DEB package unpacker
+1=
+2=v0.2
+3=+ Initial release
+4=+ RPM (Mageia-8, Mageia-9) and DEB (Ubuntu) packages

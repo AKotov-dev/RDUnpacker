@@ -1,0 +1,8 @@
+{"version":1,"strings":[
+{"hash":114093074,"name":"tmainform.caption","sourcebytes":[114,112,109,100,101,98,45,117,110,112,97,99,107,101,114],"value":"rpmdeb-unpacker"},
+{"hash":73879290,"name":"tmainform.label1.caption","sourcebytes":[82,80,77,32,111,114,32,68,69,66,32,80,97,99,107,97,103,101,58],"value":"RPM or DEB Package:"},
+{"hash":12558,"name":"tmainform.pkgbtn.caption","sourcebytes":[46,46,46],"value":"..."},
+{"hash":127472186,"name":"tmainform.label2.caption","sourcebytes":[79,117,116,112,117,116,32,68,105,114,101,99,116,111,114,121,58],"value":"Output Directory:"},
+{"hash":12558,"name":"tmainform.dirbtn.caption","sourcebytes":[46,46,46],"value":"..."},
+{"hash":245811237,"name":"tmainform.statictext2.caption","sourcebytes":[76,105,99,101,110,115,101,58,32,71,80,76,118,51,32,32,32,65,117,116,104,111,114,58,32,97,108,101,120,95,113,95,50,48,48,48,32,40,67,41,32,50,48,50,51,32,32,32,85,82,76,58,32,104,116,116,112,115,58,47,47,108,105,110,117,120,102,111,114,117,109,46,114,117],"value":"License: GPLv3   Author: alex_q_2000 (C) 2023   URL: https://linuxforum.ru"}
+]}

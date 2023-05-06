@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=RDUnpacker
+Comment=RPM and DEB package unpacker
+Comment[ru]=Распаковщик пакетов RPM и DEB
+Icon=rdunpacker
+Exec=/usr/share/rdunpacker/rdunpacker
+Type=Application
+Categories=System;
+Terminal=false

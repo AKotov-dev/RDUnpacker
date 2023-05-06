@@ -1,0 +1,44 @@
+This repack.txt file was created automatically by RPMCreator v2.5
+It contains the necessary information to recreation the program from the source code
+
+Information about the program:
+---
+Name of program: rpmdeb-unpacker
+Version of program: 0.2
+Program development tool: Lazarus
+Version of program development tool: 2.2.4
+URL the sources + binaries of the author: 111
+
+Information about the rpm-package:
+---
+Build method: Portable RPM
+Time stamp: 6-5-23 13:24:25
+
+Name: rdunpacker
+Version: 0.2
+Release: 0.mrx9
+Group: Archiving/Backup
+License: GPLv3
+Maintainer: Alex Kotov
+Vendor: alex_q_2000 (C) 2023
+URL of the copy source codes: 111
+
+Summary: RPM and DEB package unpacker
+
+Description:
+---
+RPM and DEB package unpacker
+---
+More information: /usr/share/doc/package_name/repack.txt
+
+Package dependencies:
+---
+p7zip zstd binutils gtk2
+
+Additionally information:
+---
+RPM and DEB package unpacker
+
+v0.2
++ Initial release
++ RPM (Mageia-8, Mageia-9) and DEB (Ubuntu) packages

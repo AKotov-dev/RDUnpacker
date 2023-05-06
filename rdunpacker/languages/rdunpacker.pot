@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tmainform.caption
+msgid "rpmdeb-unpacker"
+msgstr ""
+
+#: tmainform.dirbtn.caption
+msgctxt "tmainform.dirbtn.caption"
+msgid "..."
+msgstr ""
+
+#: tmainform.label1.caption
+msgid "RPM or DEB Package:"
+msgstr ""
+
+#: tmainform.label2.caption
+msgid "Output Directory:"
+msgstr ""
+
+#: tmainform.pkgbtn.caption
+msgctxt "tmainform.pkgbtn.caption"
+msgid "..."
+msgstr ""
+
+#: tmainform.statictext2.caption
+msgid "License: GPLv3   Author: alex_q_2000 (C) 2023   URL: https://linuxforum.ru"
+msgstr ""
+
+#: unit1.scompleted
+msgid "Completed. Result in"
+msgstr ""
+
