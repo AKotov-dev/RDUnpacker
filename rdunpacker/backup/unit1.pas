@@ -106,7 +106,7 @@ end;
 
 procedure TMainForm.UnpackBtnClick(Sender: TObject);
 begin
-  //LogMemo.Clear;
+  LogMemo.Clear;
 
   if (not FileExists(PkgEdit.Text)) or (not DirectoryExists(DirEdit.Text)) then
     LogMemo.Lines.Add('!--the folder does not exist for unpacking...')

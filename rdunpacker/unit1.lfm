@@ -17,7 +17,7 @@ object MainForm: TMainForm
     AnchorSideBottom.Side = asrCenter
     Left = 8
     Height = 17
-    Top = 25
+    Top = 17
     Width = 127
     Anchors = [akLeft, akBottom]
     BorderSpacing.Left = 8
@@ -33,7 +33,7 @@ object MainForm: TMainForm
     AnchorSideRight.Control = PkgBtn
     Left = 139
     Height = 37
-    Top = 16
+    Top = 8
     Width = 450
     Anchors = [akLeft, akRight]
     BorderSpacing.Left = 4
@@ -50,7 +50,7 @@ object MainForm: TMainForm
     AnchorSideBottom.Side = asrBottom
     Left = 589
     Height = 37
-    Top = 16
+    Top = 8
     Width = 39
     Anchors = [akTop, akRight, akBottom]
     BorderSpacing.Right = 8
@@ -63,7 +63,7 @@ object MainForm: TMainForm
     AnchorSideTop.Side = asrCenter
     Left = 8
     Height = 17
-    Top = 66
+    Top = 58
     Width = 102
     BorderSpacing.Left = 8
     Caption = 'Output Directory:'
@@ -76,7 +76,7 @@ object MainForm: TMainForm
     AnchorSideRight.Control = DirBtn
     Left = 139
     Height = 37
-    Top = 56
+    Top = 48
     Width = 450
     Anchors = [akLeft, akRight]
     BorderSpacing.Top = 2
@@ -93,7 +93,7 @@ object MainForm: TMainForm
     AnchorSideBottom.Side = asrBottom
     Left = 589
     Height = 37
-    Top = 56
+    Top = 48
     Width = 39
     Anchors = [akTop, akRight, akBottom]
     BorderSpacing.Right = 8
@@ -123,8 +123,8 @@ object MainForm: TMainForm
     AnchorSideRight.Side = asrBottom
     AnchorSideBottom.Control = StaticText2
     Left = 0
-    Height = 399
-    Top = 101
+    Height = 407
+    Top = 93
     Width = 729
     Anchors = [akTop, akLeft, akRight, akBottom]
     BorderSpacing.Top = 8
@@ -142,7 +142,7 @@ object MainForm: TMainForm
     AnchorSideBottom.Side = asrBottom
     Left = 636
     Height = 77
-    Top = 16
+    Top = 8
     Width = 85
     Anchors = [akTop, akRight, akBottom]
     BorderSpacing.Right = 8
