@@ -2,7 +2,7 @@
 name=rdunpacker
 
 [VERSION]
-version=0.2
+version=0.3
 
 [RELEASE]
 release=0.mrx9
@@ -63,6 +63,10 @@ toolversion=2.2.4
 [INFO]
 0=RPM and DEB package unpacker
 1=
-2=v0.2
-3=+ Working release
+2=v0.3
+3=+ All unpacking via p7zip
 4=+ RPM (Mageia-8, Mageia-9) and DEB (Ubuntu) packages
+5=
+6=v0.2
+7=+ Working release
+8=+ RPM (Mageia-8, Mageia-9) and DEB (Ubuntu) packages
