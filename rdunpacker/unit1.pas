@@ -98,7 +98,10 @@ end;
 procedure TMainForm.PkgBtnClick(Sender: TObject);
 begin
   if OpenDialog1.Execute then
+  begin
+    LogMemo.Clear;
     PkgEdit.Text := OpenDialog1.FileName;
+  end;
 end;
 
 procedure TMainForm.UnpackBtnClick(Sender: TObject);
@@ -117,20 +120,19 @@ begin
     if Copy(PkgEdit.Text, Length(PkgEdit.Text) - 3, 4) = '.rpm' then
       UnpackProcess('rm -rf ./tmp ./rpm; mkdir ./tmp ./rpm; 7z x -y "' +
         PkgEdit.Text +
-        // '" -o./tmp; if [ -f ./tmp/*.zstd ]; then cd ./tmp; zstd -df ./*.zstd; cd -; fi; ' +
-        '" -o./tmp; if [ -f ./tmp/*.zstd ]; then cd ./tmp; 7z x -y ./*.zstd; cd -; fi; '
-        +
+        '" -o./tmp; if [ -f ./tmp/*.zstd ]; then cd ./tmp; zstd -df ./*.zstd; cd -; fi; ' +
+        //'" -o./tmp; if [ -f ./tmp/*.zstd ]; then cd ./tmp; 7z x -y ./*.zstd; cd -; fi; '
         '7z x -y ./tmp/*.cpio -o./rpm; rm -rf ./tmp')
     else
-    {  UnpackProcess('rm -rf ./tmp ./deb; mkdir ./tmp ./deb; 7z x -y "' +
-        PkgEdit.Text + '" -o./tmp; cd ./tmp; f=$(ls *data*); ext=${f##*.}; cd -; '
-        + '[ "$ext" != "tar" ] && tar -xvf ./tmp/data.tar.$ext -C ./deb || ' +
-        'tar -xvf ./tmp/data.tar -C ./deb; rm -rf ./tmp');       }
-
       UnpackProcess('rm -rf ./tmp ./deb; mkdir ./tmp ./deb; 7z x -y "' +
         PkgEdit.Text + '" -o./tmp; cd ./tmp; f=$(ls *data*); ext=${f##*.}; cd -; '
+        + '[ "$ext" != "tar" ] && tar -xvf ./tmp/data.tar.$ext -C ./deb || ' +
+        'tar -xvf ./tmp/data.tar -C ./deb; rm -rf ./tmp');
+
+     { UnpackProcess('rm -rf ./tmp ./deb; mkdir ./tmp ./deb; 7z x -y "' +
+        PkgEdit.Text + '" -o./tmp; cd ./tmp; f=$(ls *data*); ext=${f##*.}; cd -; '
         + '[ "$ext" != "tar" ] && 7z x -y ./tmp/data.tar.$ext -o./deb || ' +
-        '7z x -y ./tmp/data.tar -o./deb; rm -rf ./tmp');
+        '7z x -y ./tmp/data.tar -o./deb; rm -rf ./tmp'); }
 
     //Промотать список вниз
     LogMemo.SelStart := Length(LogMemo.Text);
@@ -159,6 +161,5 @@ begin
   if SelectDirectoryDialog1.Execute then
     DirEdit.Text := SelectDirectoryDialog1.FileName;
 end;
-
 
 end.
